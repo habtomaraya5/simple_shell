@@ -30,7 +30,7 @@ i++;
 k = 0;
 while (!is_delim(str[i + k], d) && str[i + k])
 k++;
-s[j] = malloc((k + 1) * sizeof(char));
+s[j] = malloc((k + 1) *sizeof(char));
 if (!s[j])
 {
 for (k = 0; k < j; k++)
