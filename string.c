@@ -58,7 +58,7 @@ char *_strcat(char *dest, char *src)
 char *ret = dest;
 while (*dest)
 dest++;
-While (*src)
+while (*src)
 *dest++ = *src++;
 *dest = *src;
 return (ret);
